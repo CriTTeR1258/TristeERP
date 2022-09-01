@@ -1,0 +1,58 @@
+[
+    {
+        "type": "Group",
+        "name": "folders important",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "0Czm6FSxQyv3dgEA"
+    },
+    {
+        "type": "Directory",
+        "name": "/var/www/decx-erp.tk/app/Http/Controllers",
+        "parent_id": "0Czm6FSxQyv3dgEA",
+        "workspaceRoot": "/var/www/decx-erp.tk",
+        "workspacePath": "app/Http/Controllers",
+        "id": "3vG9kB7dXYPseLEA"
+    },
+    {
+        "type": "Directory",
+        "name": "/var/www/decx-erp.tk/resources/js/components",
+        "parent_id": "0Czm6FSxQyv3dgEA",
+        "workspaceRoot": "/var/www/decx-erp.tk",
+        "workspacePath": "resources/js/components",
+        "id": "oe3N1TEgD6nFkuCW"
+    },
+    {
+        "type": "Directory",
+        "name": "/var/www/decx-erp.tk/resources/views",
+        "parent_id": "0Czm6FSxQyv3dgEA",
+        "workspaceRoot": "/var/www/decx-erp.tk",
+        "workspacePath": "resources/views",
+        "id": "qDKgnZSiCsRovE1M"
+    },
+    {
+        "type": "Group",
+        "name": "files important",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "KCBlWojOiF2hAdD0"
+    },
+    {
+        "type": "File",
+        "name": "/var/www/decx-erp.tk/routes/web.php",
+        "parent_id": "KCBlWojOiF2hAdD0",
+        "workspaceRoot": "/var/www/decx-erp.tk",
+        "workspacePath": "routes/web.php",
+        "id": "uyW0jzVg5pq6bdZv"
+    },
+    {
+        "type": "File",
+        "name": "/var/www/decx-erp.tk/resources/js/vue.js",
+        "parent_id": "KCBlWojOiF2hAdD0",
+        "workspaceRoot": "/var/www/decx-erp.tk",
+        "workspacePath": "resources/js/vue.js",
+        "id": "bHQ1iyCEsJWgTXYR"
+    }
+]

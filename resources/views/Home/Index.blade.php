@@ -1,0 +1,22 @@
+@extends('Layouts.Content')
+@section('content')
+<div>
+	<home
+	></home>
+	<home
+	></home>
+	<home
+	></home>
+	<home
+	></home>
+	<home
+	></home>
+</div>
+@endsection
+@section('js')
+<script>
+	$(document).ready(function(){
+		$('#pageTitle').text('Home');
+	});
+</script>
+@endsection

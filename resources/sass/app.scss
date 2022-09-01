@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// JQUERY
+@import '~jquery-ui/themes/base/all.css';
+
+//BootstrapIcons
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+//custom
+
+$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "color": map-merge(
+      map-get($utilities, "color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "color"), "values"),
+          (
+            $all-colors
+          ),
+        ),
+      ),
+    ),
+  )
+);
+
+
+$feature-bg: #ffd803;
+
+.btn-add {
+  @include button-variant($blue-400, darken($blue-300, 6%));
+}
+
+.btn-modify {
+  @include button-variant($teal-400, darken($teal-300, 6%));
+}
+
+.btn-delete {
+    @include button-variant($red-400, darken($red-300, 6%));
+}
+
+.btn-accept {
+  @include button-variant($orange-400, darken($orange-300, 6%));
+  color: white;
+}
